@@ -1,5 +1,19 @@
-.navbar-light .navbar-nav .nav-link.active-link
-{
-    color: aqua;
-    font-weight: bold;
+.nav-link {
+    transition: color 0.3s, transform 0.3s;
+    color: #D1D5DB; /* Tailwind Gray-300 */
 }
+.nav-link:hover {
+    color: #9CA3AF; /* Tailwind Gray-400 */
+    transform: translateY(-2px);
+}
+.navbar {
+    background-color: #1F2937; /* Tailwind Gray-800 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    transition: transform 0.3s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+
